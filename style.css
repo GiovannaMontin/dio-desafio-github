@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Edu SA Beginner', cursive;
 }
 img {
     width: 50px;
@@ -13,6 +16,7 @@ figcaption {
 
 
 /* Header */
+
 .header_box{
     display: flex;
     flex-direction: row;
@@ -78,6 +82,60 @@ figcaption {
 
 .nav_header ul li {
     list-style: none;    
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 35px;
+    border-left: 5px solid #337a74;
+    border-right: 5px solid #337a74;
+    border-radius: 3px;
+}
+
+.services h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.container-services{
+    display: flex; 
+    flex-direction: row;
+    padding: 50px;
+    align-items: flex-start;
+}
+
+.principal_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 35px;
+    max-width: 550px;
+}
+
+.principal_box figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal_box .text_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.principal_box img {
+    width: 450px;
+    height: auto;
+    margin: 10px;
 }
 
 
